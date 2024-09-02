@@ -1,0 +1,56 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif; 
+    background-image: url(images/gradient-futuristic-background-with-lights_52683-74115.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+}
+
+.main {   
+    text-align: center;
+    display: inline-block; 
+    width: 15rem;
+    height: 25rem;
+    font-family: cursive;
+    font-size: 25px;
+    color: rgb(234, 234, 27);
+
+}
+
+.header h1 {
+    margin: 3px 0; 
+
+}
+
+.buttons {
+    display: block; 
+    margin-top: 10px;
+  
+}
+
+.buttons a {
+    display: block;
+    text-decoration: none; 
+    margin: 5px; 
+}
+
+.buttons button {
+    background-color: rgb(190, 165, 214); 
+    color: black; 
+    padding: 10px 20px;
+    border-radius: 10px; 
+    transition: transform ease 1s;
+    border: none;
+    cursor: pointer;
+    width: 100%; 
+    box-sizing: border-box;
+}
+
+.buttons button:hover {
+    transform: scale(1.05);
+}
